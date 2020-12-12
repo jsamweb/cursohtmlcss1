@@ -33,22 +33,24 @@
             <form action="">
                 <label for="Nombre">
                     <span>Nombre</span>
-                    <input type="text" id="Nombre" placeholder="Tu Nombre"/>
+                    <input type="text" id="Nombre" placeholder="Tu Nombre" name="Nombre" autocomplete="name"/>
                 </label>
                 <label for="Apellido">
                     <span>Apellido</span>
-                    <input type="text" id="Apellido" placeholder="Tu Apellido"/>
+                    <input type="text" id="Apellido" placeholder="Tu Apellido" name="Apellido" autocomplete="additional-name" />
                 </label>
-                <label for="Fecha de nacimiento">
-                    <span>Fecha de nacimiento</span>
-                    <input type="date" id="Fecha de nacimiento" placeholder="Que dia Naciste"/>
+                <label for="email">
+                    <span>Escribe tu email</span>
+                    <input type="email" id="email" placeholder="email" name="email" autocomplete="email"/>
                 </label>
-                <label for="color">
-                    <span>Escoge un color</span>
-                    <input type="color" id="color" placeholder="Escoge tu color favorito"/>
+                <label for="C.P.">
+                    <span>Codigo postal</span>
+                    <input type="text" id="C.P." placeholder="Codigo postal" name="C.P." autocomplete="postal-code"/>
                 </label>
+                <input type="submit"/>
 
             </form>
+
         </section>
 
 
