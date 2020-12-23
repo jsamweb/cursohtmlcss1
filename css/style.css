@@ -1,10 +1,11 @@
-#imagenes
+.imagenes
 {
     width: 250px;
     border-radius: 2em;
     align-content: space-between;
     box-shadow: 2px 2px 4px #000000;
     padding: 8px;
+    display: inline;
    
 }
 
@@ -26,6 +27,8 @@
 {
     width: 100px;
     background-color: rgb(52, 6, 126);
+    border-radius: 10px;
+    
 
 }
 
@@ -53,10 +56,40 @@
     padding: 15px;
     border-radius: 10px;
     background-color: rgb(151, 151, 151);
+
 }
 .main-nav__item a:hover
 {
     color: violet;
     background-color: rebeccapurple;
     
+}
+.main-nav__logo:hover
+{
+    background-color: white;
+    opacity: 50%;
+}
+.footer
+{
+    background-color: silver;
+    width: auto;
+    padding: 6px;
+
+    
+}
+.footer__h3
+{
+    font-family:Helvetica, sans-serif;
+    background-color: rebeccapurple;
+    padding: 0.5em;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+.footer__h3:hover
+{
+    text-shadow: 2px 2px 4px #000000;
 }
