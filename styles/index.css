@@ -9,6 +9,33 @@
    
 }
 
+
+.main-nav
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    background-color: sandybrown;
+    padding: 4em;
+    text-align:right;
+    
+    
+
+}
+
+
+.main-nav__logo
+{
+    max-width: 150px;
+    background-color: rgb(52, 6, 126);
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    display: inline;
+
+  
+}
+
 .main-nav__titulo
 {
     font-size: 25px;
@@ -20,42 +47,25 @@
     margin-bottom: 0px;
     text-shadow: 2px 2px 2px #000000;
     padding: 1em;
-
-
-}
-.main-nav__logo
-{
-    width: 100px;
-    background-color: rgb(52, 6, 126);
-    border-radius: 10px;
-    
-
-}
-
-
-
-.main-nav
-{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0px;
-    padding-left: 2em;
-    background-color: sandybrown;
-    padding: 2em;
-    
-
-}
+}    
 
 .main-nav__item
 {
     list-style: none;
     display: inline;
+
+
 }
 .main-nav__item a
 {
     color: seashell;
-    padding: 15px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     border-radius: 10px;
     background-color: rgb(151, 151, 151);
+    
 
 }
 .main-nav__item a:hover

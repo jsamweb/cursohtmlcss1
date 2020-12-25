@@ -1,0 +1,105 @@
+.imagenes
+{
+    width: 250px;
+    border-radius: 2em;
+    align-content: space-between;
+    box-shadow: 2px 2px 4px #000000;
+    padding: 8px;
+    display: inline;
+   
+}
+
+
+.main-nav
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    background-color: sandybrown;
+    padding: 4em;
+    text-align:right;
+    
+    
+
+}
+
+
+.main-nav__logo
+{
+    max-width: 150px;
+    background-color: rgb(52, 6, 126);
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    display: inline;
+
+  
+}
+
+.main-nav__titulo
+{
+    font-size: 25px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(52, 6, 126);
+    color: white;
+    margin-top: 18px;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 2px #000000;
+    padding: 1em;
+}    
+
+.main-nav__item
+{
+    list-style: none;
+    display: inline;
+
+
+}
+.main-nav__item a
+{
+    color: seashell;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 10px;
+    background-color: rgb(151, 151, 151);
+    
+
+}
+.main-nav__item a:hover
+{
+    color: violet;
+    background-color: rebeccapurple;
+    
+}
+.main-nav__logo:hover
+{
+    background-color: white;
+    opacity: 50%;
+}
+.footer
+{
+    background-color: silver;
+    width: auto;
+    padding: 6px;
+
+    
+}
+.footer__h3
+{
+    font-family:Helvetica, sans-serif;
+    background-color: rebeccapurple;
+    padding: 0.5em;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+.footer__h3:hover
+{
+    text-shadow: 2px 2px 4px #000000;
+}
