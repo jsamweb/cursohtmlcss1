@@ -1,11 +1,18 @@
+*
+{
+    box-sizing: border-box;
+}
 .imagenes
 {
-    width: 250px;
+    width: auto;
+    height: 300px;
     border-radius: 2em;
     align-content: space-between;
     box-shadow: 2px 2px 4px #000000;
     padding: 8px;
     display: inline;
+    border: solid rgb(255, 255, 255);
+    
    
 }
 
@@ -15,9 +22,9 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 0px;
     background-color: sandybrown;
-    padding: 4em;
+    padding: 1em;
     text-align:right;
-    
+    font-size: 30px;
     
 
 }
@@ -51,8 +58,9 @@
 
 .main-nav__item
 {
-    list-style: none;
+    list-style: none; 
     display: inline;
+    font-size: 0.5em;
 
 
 }
@@ -84,22 +92,51 @@
     background-color: silver;
     width: auto;
     padding: 6px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+
 
     
 }
-.footer__h3
+.footer__item
 {
     font-family:Helvetica, sans-serif;
     background-color: rebeccapurple;
-    padding: 0.5em;
+    padding: 1em;
     border-radius: 10px;
     text-align: center;
+    font-size: 1em;
     color: rgb(255, 255, 255);
-    
+    text-decoration: none;
 
 }
 
-.footer__h3:hover
+.footer__item--about
+{
+    font-family:Helvetica, sans-serif;
+    background-color: rebeccapurple;
+    display: inline; 
+    border-radius: 10px;
+    text-align: left;
+    font-size: 0.8em;
+    color: rgb(255, 255, 255);
+    list-style: none;
+
+
+
+}
+
+
+
+.footer__item :hover
 {
     text-shadow: 2px 2px 4px #000000;
 }
+
+
+.footer__item--about :hover
+{
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
