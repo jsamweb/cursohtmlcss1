@@ -84,13 +84,14 @@ html
 
 .figure
 {
-    background-color: rgb(197, 197, 197);
+    background: rgb(9,0,134);
+    background: linear-gradient(0deg, rgba(9,0,134,1) 0%, rgba(9,9,205,1) 21%, rgba(0,212,255,1) 100%);
     
    
 
 
 }
-#a 
+#a
 {
     position: absolute;
     text-align: center;
@@ -103,7 +104,6 @@ html
     font-size: 2rem;
     border-radius: 2rem;
     box-shadow: 0px 1px 0px #000000;
-    margin-left: ;
     
 }
 #b
