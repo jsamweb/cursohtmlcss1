@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="descripción" content="regala un gruñido a esa persona especial"/>
-    <meta name="robots" content="indext,follow">
+    <meta name="robots" content="indext, no follow">
     <meta name="viewport" content="width=device-with, inicial-scale=1.0">
     <title>gruñeme</title>
     <link rel="stylesheet" href="/styles/normalize.css">
@@ -12,13 +12,13 @@
 
 <body>
     <header>
-        <section>
+        <section class="main-nav">
         
             <img class= "main-nav__logo" src="https://i.imgur.com/Wbag38V.png" alt="este es el logo de la empresa">
             <h1 class= "main-nav__logo">artelaser</h1>
             <h1 class="main-nav__titulo">Promociones</h1>
             <nav>
-                <ul class="main-nav">
+                <ul class="main-nav__item">
                     <li class="main-nav__item"><a href="">Home</a></li>
                     <li class="main-nav__item"><a href="">Products</a></li>
                     <li class="main-nav__item"><a href="">News</a></li>
@@ -31,12 +31,16 @@
     <main>
 
         <section>
-            <figure>
+            <figure class="figure">
+                <h3  id="a"> oferta 1 </h3>
+                <img  class="imagenes" src="https://i.imgur.com/n9d9yaN.jpg" alt="esto es una oferta amarilla" >
+               
+                <h3 id="b"> oferta 2 </h3>
+                <img  class="imagenes" src="https://i.imgur.com/n9d9yaN.jpg" alt="esto es una oferta amarilla" >
+                
+                <h3  id="c"> oferta 3 </h3>
+                <img  class="imagenes" src="https://i.imgur.com/n9d9yaN.jpg" alt="esto es una oferta amarilla" >
 
-                <img class="imagenes" src="https://i.imgur.com/n9d9yaN.jpg" alt="esto es una oferta amarilla" width="300">
-                <img class="imagenes" src="https://i.imgur.com/cilu5Ll.jpg" alt="esto es una oferta roja" width="300">
-                <img class="imagenes" src="https://i.imgur.com/lXPSYTQ.jpg" alt="esto es una oferta verde" width="300">
-            </figure>
 
             <!-- <video  controls width="600" preload="auto">
                 <source src="./video/video1.MOV#t=5"/>
