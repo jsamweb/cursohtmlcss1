@@ -8,4 +8,44 @@ html
 {
     font-size: 62.5%;
 }
+body 
+{
+    font-size: 1.6rem;
+    font-family: Helvetica, sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    height: 15rem;
+    background-color: tomato;
+    
+}
+
+.flex 
+{
+    
+    display: flex;
+    justify-content:flex-end;
+    
+
+    
+}
+
+.menu 
+{
+    padding: 1rem;
+    border: solid cornsilk 0.1rem;
+    border-radius: 0.5rem;
+    background-color: cornsilk;
+    list-style: none;
+    margin: 1rem;
+}
+.logo
+{
+    width: 10rem;
+    display: flex;
+    justify-content: left;
+    
+}
 
