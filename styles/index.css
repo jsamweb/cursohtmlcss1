@@ -12,14 +12,31 @@ body
 {
     font-size: 1.6rem;
     font-family: Helvetica, sans-serif;
+    width: 100%;
     
 }    
+#header-logo
+{
+    max-width: 150px;
+    
+    padding-left: 2rem;
 
+}
 .container
 {
-    width: 100vw;
-    height: 15rem;
+    
+    height: 12rem;
     background-color: tomato;
+    
+}
+.container__nav
+{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 15vh;
+    
+    
     
 }
 
@@ -39,7 +56,6 @@ body
     border-radius: 0.5rem;
     background-color: cornsilk;
     margin: 2rem;
-    margin-right: 5rem;
     font-weight: bold;
     font-size: 1rem;
     
@@ -52,22 +68,27 @@ a
     text-decoration: none;
     color: brown;
 }
+#color-title
+{
+    color: black;
+}
 .main
 {
-    width: 100vw;
+    width: 100%;
     height: auto;
     background-color: rgb(212, 212, 212);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
     
 }
-/* .aside
+.aside
 {
     background-color: rgb(31, 31, 31);
     height: auto;
    
-} */
-/* .title2
+} 
+.title2
 {
     color: ivory;
     margin: 1rem 1rem 1rem 1rem;
@@ -82,45 +103,59 @@ a
     border-radius: 2rem;
     color: ivory;
     margin: 2rem 2rem 2rem 2rem;
-    font-size: 2rem;
-    
-    
+    font-size: 2rem;  
     padding: 2rem;
     width: 15vw;
     
-} */
+}
 .div
 {
-    width: auto;
+    
     display: flex;
     margin: 2rem;
-    flex-flow:  wrap column;
-    align-content: center; 
-    justify-content:space-around ;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    
+    
+
 }
 
 .title
 {
     background-color: cornsilk;
-    margin: 7rem 1rem 1rem 1rem;
-    padding: 2rem;
-    font-size: 3rem;
-    text-align: center;
+    margin: 1rem;
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
     border-radius: 2rem;
-    width: 20vw;
+    align-content: stretch;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+    
+
+
+    
 }
 .content
 {
     border-radius: 2rem;
     background-color: cornsilk;
-    margin: 2rem 1rem 1rem 1rem;
+    margin: 0.5rem 1rem 5rem 1rem;
     padding: 2rem;
     font-size: 2rem;
-    width: 20vw;
+    width:auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 .footer
 {
-    width: 100vw;
+    
     height: auto;
     background-color: tomato;
     display: flex;
