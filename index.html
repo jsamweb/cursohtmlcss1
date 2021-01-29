@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive images</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./tablet.css" media="(min-width:600px)">
+    <link rel="stylesheet" href="./desk.css" media="(min-width:800px)">
+</head>
+<body>
+    <header>
+        <img  class="logo" src="./pics/logo artelaser.png" alt="logo">
+    </header>
+    <main class="container">
+        <picture>
+            <source media="(min-width:1000px)" srcset="./pics/amarilla-big.jpeg">
+            <source media="(min-width:600px)" srcset="./pics/amarilla-medium.jpeg">
+            <img src="./pics/amarilla-small.jpg" alt="promo amarilla"/>
+        </picture>
+        <picture>
+            <source media="(min-width:1000px)" srcset="./pics/roja.jpeg">
+            <source media="(min-width:600px)" srcset="./pics/roja-medium.jpg">
+            <img src="./pics/roja-small.jpg" alt="promo amarilla"/>
+        </picture>
+        <picture>
+            <source media="(min-width:1000px)" srcset="./pics/roja.jpeg">
+            <source media="(min-width:600px)" srcset="./pics/roja-medium.jpg">
+            <img src="./pics/roja-small.jpg" alt="promo amarilla"/>
+        </picture>
+
+
+    </main>
+    
+</body>
+</html>

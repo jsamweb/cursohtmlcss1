@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.logo{
+    width: auto;
+    max-width: 150px;
+    border: transparent;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+    margin-top: 3rem;
+    border: solid 1rem gray;
+    border-radius: 1.5rem;
+}
